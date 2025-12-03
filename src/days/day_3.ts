@@ -120,12 +120,6 @@ export function day_three_part_two() {
   // Then do a comparison to find the next highest one using the next n pointer 
   // Continue doing until you get to your desired n_max pointer (in this case 12)
 
-  // var extracted_string: string = "818181911112111";
-  // var joltage: number = joltage_finder_expanded(extracted_string)
-
-  // console.log(joltage)
-
-
   var jolt_sum: number = 0;
   split_text.forEach((battery: string) => {
     jolt_sum += joltage_finder_expanded(battery);
